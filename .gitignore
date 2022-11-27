@@ -1,0 +1,140 @@
+old/
+data/rasters-float32/
+data/rasters-float32-250m/
+output/sre/powl.pres.abs/.BIOMOD_DATA/
+output/sre/powl.pres.abs/models/
+output/sre/powl.pres.abs/proj_SRE_new/
+output/sre/powl.pres.only/
+output/sre/powl_sre_05_250m_full.tif
+output/sre/powl_sre_090_preds_current_buff_250m.tif
+output/sre/figure_powl_sre_090_buff_250m.png
+output/sre/figure_powl_sre_05_250m_full.png
+output/andrew_old/
+output/biomod/
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+a20-api-calls.Rmd
+*.tif
+output/maxent/powl_maxent_stack2/species_samplePredictions.csv
+output/maxent/powl_maxent_stack2/species_sampleAverages.csv
+output/maxent/powl_maxent_stack2/species_omission.csv
+output/maxent/powl_maxent_stack2/species_explain.bat
+output/maxent/powl_maxent_stack2/species.lambdas
+output/maxent/powl_maxent_stack2/species.html
+output/maxent/powl_maxent_stack2/species.csv
+output/maxent/powl_maxent_stack2/presence
+output/maxent/powl_maxent_stack2/plots/species_roc.png
+output/maxent/powl_maxent_stack2/plots/species_omission.png
+output/maxent/powl_maxent_stack2/plots/species_nvis_250m_reclass_allhabitat_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_nvis_250m_reclass_allhabitat_only_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_nvis_250m_reclass_allhabitat_only.png
+output/maxent/powl_maxent_stack2/plots/species_nvis_250m_reclass_allhabitat.png
+output/maxent/powl_maxent_stack2/plots/species_jacknife.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.2_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.2_only_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.2_only.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.2.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.1_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.1_only_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.1_only.png
+output/maxent/powl_maxent_stack2/plots/species_focal_sum.1.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.06_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.06_only_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.06_only.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.06.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.05_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.05_only_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.05_only.png
+output/maxent/powl_maxent_stack2/plots/species_current_1976.2005_bioclim.05.png
+output/maxent/powl_maxent_stack2/plots/species_AusClim_bioclim_17_9s_1976.2005_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_AusClim_bioclim_17_9s_1976.2005_only_thumb.png
+output/maxent/powl_maxent_stack2/plots/species_AusClim_bioclim_17_9s_1976.2005_only.png
+output/maxent/powl_maxent_stack2/plots/species_AusClim_bioclim_17_9s_1976.2005.png
+output/maxent/powl_maxent_stack2/maxentResults.csv
+output/maxent/powl_maxent_stack2/maxent.log
+output/maxent/powl_maxent_stack2/maxent.html
+output/maxent/powl_maxent_stack2/absence
+output/maxent/powl_maxent_stack1/species_samplePredictions.csv
+output/maxent/powl_maxent_stack1/species_sampleAverages.csv
+output/maxent/powl_maxent_stack1/species_omission.csv
+output/maxent/powl_maxent_stack1/species_explain.bat
+output/maxent/powl_maxent_stack1/species.lambdas
+output/maxent/powl_maxent_stack1/species.html
+output/maxent/powl_maxent_stack1/species.csv
+output/maxent/powl_maxent_stack1/presence
+output/maxent/powl_maxent_stack1/plots/species_roc.png
+output/maxent/powl_maxent_stack1/plots/species_omission.png
+output/maxent/powl_maxent_stack1/plots/species_Layer_1_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_Layer_1_only_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_Layer_1_only.png
+output/maxent/powl_maxent_stack1/plots/species_Layer_1.png
+output/maxent/powl_maxent_stack1/plots/species_jacknife.png
+output/maxent/powl_maxent_stack1/plots/species_Hansen_GFC.2020.v1.8_tree_canopy_cover_2000_2000_Australia_1s_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_Hansen_GFC.2020.v1.8_tree_canopy_cover_2000_2000_Australia_1s_only_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_Hansen_GFC.2020.v1.8_tree_canopy_cover_2000_2000_Australia_1s_only.png
+output/maxent/powl_maxent_stack1/plots/species_Hansen_GFC.2020.v1.8_tree_canopy_cover_2000_2000_Australia_1s.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.06_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.06_only_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.06_only.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.06.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.05_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.05_only_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.05_only.png
+output/maxent/powl_maxent_stack1/plots/species_current_1976.2005_bioclim.05.png
+output/maxent/powl_maxent_stack1/plots/species_AusClim_bioclim_17_9s_1976.2005_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_AusClim_bioclim_17_9s_1976.2005_only_thumb.png
+output/maxent/powl_maxent_stack1/plots/species_AusClim_bioclim_17_9s_1976.2005_only.png
+output/maxent/powl_maxent_stack1/plots/species_AusClim_bioclim_17_9s_1976.2005.png
+output/maxent/powl_maxent_stack1/maxentResults.csv
+output/maxent/powl_maxent_stack1/maxent.log
+output/maxent/powl_maxent_stack1/maxent.html
+output/maxent/powl_maxent_stack1/absence
+Rplot01.png
+Rplot.png
+output/sre/powl.pres.abs/powl.pres.abs.SRE_pres_abs_V1.models.out
