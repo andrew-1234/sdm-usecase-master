@@ -13,7 +13,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
+## Setup
+
+- Clone this repo
+- This project uses `renv` for dependency management. see [renv/collaborating](https://rstudio.github.io/renv/articles/collaborating.html)
+	- install `renv` package
+	- open the rproject file `sdm-usecase.Rproj`
+	- run `renv::restore()`
+	
 ## License
+
 This repository is licensed under an MIT license. The hoot detective data set is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) and is attributed to [QUT Ecoacoustics](https://github.com/QutEcoacoustics) and [Hoot Detective](https://hootdetective.net.au/). 
 
 ## Background
