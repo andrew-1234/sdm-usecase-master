@@ -2,7 +2,10 @@
 title: "SDM with Ecoacoustic data"
 authors: "Dr Andrew Schwenke, Dr Robert Clemens"
 date: "27/11/2022"
-output: rmarkdown::github_document
+output: 
+        github_document:
+                toc: true
+                toc_depth: 2
 editor_options: 
   chunk_output_type: console
 ---

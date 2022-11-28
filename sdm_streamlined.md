@@ -2,6 +2,16 @@ SDM with Ecoacoustic data
 ================
 27/11/2022
 
+- <a href="#introduction" id="toc-introduction">Introduction</a>
+  - <a href="#setup" id="toc-setup">Setup</a>
+  - <a href="#license" id="toc-license">License</a>
+  - <a href="#background" id="toc-background">Background</a>
+- <a href="#packages" id="toc-packages">Packages</a>
+- <a href="#powerful-owl" id="toc-powerful-owl">Powerful Owl</a>
+  - <a href="#data-preparation" id="toc-data-preparation">Data
+    preparation</a>
+  - <a href="#sdm" id="toc-sdm">SDM</a>
+
 # Introduction
 
 ## Setup
