@@ -33,22 +33,41 @@ and [Hoot Detective](https://hootdetective.net.au/).
 
 ## Background
 
+This repository is as an accompaniment to a use case demonstrating the
+utility of ecoacoustic data for Species Distribution Modelling. You can
+read the full use case on the [Open Ecoacoustics
+website](https://openecoacoustics.org/resources/use-cases/sdm/), and on
+[EcoCommons](https://www.ecocommons.org.au/learn-support/).
+
 This is a simple example workflow for preparing a data set that can be
 used for species distribution modelling, using ecoacoustic data and
-annotations from the [Hoot Detective](https://hootdetective.net.au/)
-project. Hoot Detective is a citizen science project that uses audio
-from the [Australian Acoustic Observatory
-(A2O)](https://acousticobservatory.org/).
+annotations from the Hoot Detective project. Hoot Detective was a
+citizen science project that used audio from the [Australian Acoustic
+Observatory (A2O)](https://acousticobservatory.org/).
 
-The starting hoot detective data set contains annotations of presence or
+<figure>
+<img src="images/Hoot Detective.png" width="50%" style="display: block; margin: auto;" />
+<figcaption style="text-align:center;">
+The Hoot Detective website
+</figcaption>
+</figure>
+
+The complete hoot detective data set contains annotations of presence or
 absence for five different owl species, as well as the corresponding
 audio recording ID and site ID for each presence/absence record. This
 workflow will demonstrate how two different sets of data can be
 formatted using these annotations: a presence absence set, and a total
 call frequency set, and then demonstrate how these can be used to
 perform Species Distribution Modelling in R. Alternatively, the Hoot
-Detective data, once prepared, can be used to generate SDMs on the
-[EcoCommons platform](https://www.ecocommons.org.au/) directly.
+Detective data, once prepared, can also be used to generate SDMs on the
+[EcoCommons platform](https://www.ecocommons.org.au/) directly. If you
+would like to learn more about Species Distribution Modelling, you can
+visit the educational material sections of EcoCommons
+[here](https://www.ecocommons.org.au/educational-material/), and
+[here](https://support.ecocommons.org.au/support/solutions). For a wide
+range of resources, guides, and lessons related to ecoacoustics, you can
+visit the [Open Ecoacoustics](https://openecoacoustics.org/resources/)
+website.
 
 # Packages
 
@@ -117,7 +136,7 @@ Using the hoot detective data, I’m going to prepare two types of
 response data sets. The first will be simple presence / absence records
 for each sensor. The second set will be the total frequency (number) of
 calls identified for each species, per sensor. See the
-`"hoot_scripts/hoot_data_import.R` for the full methods.
+`hoot_scripts/hoot_data_import.R` for the full methods.
 
 #### Presence / absence
 
@@ -141,7 +160,7 @@ hoot_data$powl %>% filter(pres == 1) %>%
                         fill = NA)
 ```
 
-![](sdm_streamlined_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](sdm_streamlined_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 It looks like there is a presence in Western Australia. This is quite
 far outside of the known distribution, which you could check on Atlas of
@@ -486,7 +505,7 @@ powl_brt_stack1_crop_v1_pred <- terra::rast(x = "output/brt/powl_brt_stack1_crop
 plot(powl_brt_stack1_crop_v1_pred)
 ```
 
-![](sdm_streamlined_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](sdm_streamlined_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
 Repeat the process for stack 2:
 
@@ -519,4 +538,4 @@ powl_brt_stack2_crop_v1_pred <- terra::rast(x = "output/brt/powl_brt_stack2_crop
 plot(powl_brt_stack2_crop_v1_pred)
 ```
 
-![](sdm_streamlined_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](sdm_streamlined_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
